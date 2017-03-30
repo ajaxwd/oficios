@@ -3,4 +3,8 @@ from django.shortcuts import render
 # Create your views here.
 
 def index(request):
-    pass
+    nombre = 'adrian'
+    context = {
+        'nombre' : nombre
+    }
+    return render(request, 'maestros/index.html', context)
