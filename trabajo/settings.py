@@ -37,7 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app.maestros.apps.MaestrosConfig'
+    'app.maestros.apps.MaestrosConfig',
+    'app.contacto.apps.ContactoConfig,
+    'app.mision.apps.MisionConfig',
+    'app.vision.apps.VisionConfig',
+    'app.historia.apps.HistoriaConfig'
 ]
 
 MIDDLEWARE = [

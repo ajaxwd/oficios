@@ -19,4 +19,8 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^maestros/', include('app.maestros.urls', namespace='maestros')),
+    url(r'^contacto/', include('app.contacto.urls', namespace='contacto')),
+    url(r'^mision/', include('app.mision.urls', namespace='mision')),
+    url(r'^vision/', include('app.vision.urls', namespace='vision')),
+    url(r'^historia/', include('app.historia.urls', namespace='historia')),
 ]
