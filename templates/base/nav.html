@@ -1,10 +1,22 @@
 <ul>
     <li>
-        <a href="{{ url 'maestros' }}">
+        <a href="{% url 'maestros:index' %}">
             Maestros
         </a>
     </li>
-    <li>Mision</li>
-    <li>Vision</li>
-    <li>Contacto</li>
+    <li>
+        <a href="{% url 'mision:index' %}">
+            Mision
+        </a>
+    </li>
+    <li>
+        <a href="{% url 'vision:index' %}">
+            Vision
+        </a>
+    </li>
+    <li>
+        <a href="{% url 'contacto:index' %}">
+            Contacto
+        </a>
+    </li>
 </ul>
