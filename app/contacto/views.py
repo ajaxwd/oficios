@@ -4,7 +4,8 @@ from django.shortcuts import render
 
 def index(request):
     nombre = 'adrian'
+    url = 'contacto/index.html'
     context = {
         'nombre' : nombre
     }
-    return render(request, 'contacto/index.html', context)
+    return render(request, url, context)

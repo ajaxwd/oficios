@@ -2,11 +2,13 @@
 <html>
     <head>
         {% include 'base/head.html' %}
-        {% block title %}
-        {% endblock %}
+        <title>
+            {% block title %}
+            {% endblock %}
+        </title>
     </head>
     <body>
-        
+        {% include 'base/nav.html' %}
         {% block content %}
         {% endblock %}
         <footer>
