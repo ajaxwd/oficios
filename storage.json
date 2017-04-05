@@ -373,5 +373,18 @@
             "isNative": true
         }
     },
-    "theme": "vs-dark vscode-theme-defaults-themes-dark_plus-json"
+    "theme": "vs-dark vscode-theme-defaults-themes-dark_plus-json",
+    "windowsState": {
+        "openedFolders": [],
+        "lastActiveWindow": {
+            "workspacePath": "/home/adrian/django10/pro/trabajo",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 51,
+                "width": 1366,
+                "height": 716
+            }
+        }
+    }
 }
